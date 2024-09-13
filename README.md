@@ -1,3 +1,3 @@
 # goit-markup-hw-03
 
-My hw2
+My homework-3
