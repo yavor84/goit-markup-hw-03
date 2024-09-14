@@ -224,7 +224,7 @@ img {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-item {
@@ -234,7 +234,7 @@ img {
 }
 
 .team-item-content {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-item-title {
