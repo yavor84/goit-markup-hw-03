@@ -29,6 +29,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 /* common */
@@ -67,10 +68,6 @@ img {
 
 .header-logo .logo-part {
   color: #2e2f42;
-}
-
-.footer-logo .logo-part {
-  color: #f4f4fd;
 }
 
 .header-nav {
@@ -312,6 +309,7 @@ img {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -319,4 +317,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
